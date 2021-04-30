@@ -38,7 +38,7 @@ function Nursery() {
         <ReactPlayer
           controls
           url="https://www.youtube.com/watch?v=yWirdnSDsV4"
-          width="95%"
+          width="99%"
           height="200px"
           loop
         />
