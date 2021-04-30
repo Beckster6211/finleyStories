@@ -32,7 +32,7 @@ function App() {
             <Route path="/nursery/macdonald">
               <Macdonald />
             </Route>
-            <Route path="/nursery/twinkle">
+            <Route path="nursery/twinkle">
               <TwinkleTwinkle />
             </Route>
             <Route path="/nursery">
