@@ -1,5 +1,5 @@
 .nursery {
-  background-image: url("../../istockphoto-955916008-170667a.jpg");
+  /* background-image: url("../../istockphoto-955916008-170667a.jpg");
   background-size: contain;
   background-repeat: repeat;
   min-width: 80vw;
@@ -9,8 +9,14 @@
   flex-wrap: wrap;
   /* flex-flow: row wrap; */
   /* justify-content: space-around; */
-  padding: 1%;
-  margin: 1%;
+  /* padding: 1%;
+  margin: 1%;  */
+  min-width: 95%;
+}
+
+.videos {
+  /* border-style: solid; */
+  padding: 2%;
 }
 
 .nurseryHeading {

@@ -11,7 +11,7 @@ function Home() {
       <Header />
       <div className="nurseryButton">
         <Link to="/nursery">
-          <button>Nursery</button>
+          <button>Nursery Rhymes</button>
         </Link>
       </div>
       {/* <Link to={videos[0].href}>
