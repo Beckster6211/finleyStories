@@ -14,7 +14,7 @@ function Nursery() {
         Courtesy of youtube <br></br>Sorry if they drive you nuts 😊
       </p>
       <div className="videos">
-        <Link to="nursery/twinkle">
+        <Link to="/nursery/twinkle">
           <img
             src="https://m.media-amazon.com/images/I/71c0yfOigeL._SS500_.jpg"
             width="40%"

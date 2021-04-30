@@ -1,6 +1,6 @@
 import ReactPlayer from "react-player";
 import "../pages.css";
-import NurseryButton from "../../../buttonNursery/buttonNursery";
+import NurseryButton from "../buttonNursery/buttonNursery";
 
 function HappyAndKnowIt() {
   return (
