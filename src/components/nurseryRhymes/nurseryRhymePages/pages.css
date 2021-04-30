@@ -1,0 +1,41 @@
+.page {
+  min-width: 95%;
+}
+
+.video {
+  /* border-style: solid; */
+  padding: 1%;
+}
+
+.lyrics {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 1%;
+  margin: 1%;
+}
+
+.title {
+  font-size: 2.1rem;
+  text-decoration: underline;
+}
+
+.icons {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .lyrics {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .icons {
+    font-size: 1.3rem;
+  }
+}
