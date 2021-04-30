@@ -19,6 +19,10 @@
   padding: 2%;
 }
 
+.twinkle {
+  border-style: solid;
+  padding: 1%;
+}
 .nurseryHeading {
   font-size: 2rem;
 }
