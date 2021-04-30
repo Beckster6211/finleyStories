@@ -16,7 +16,9 @@
 
 .videos {
   /* border-style: solid; */
+  display: inline-block;
   padding: 2%;
+  margin: 1%;
 }
 
 .twinkle {
