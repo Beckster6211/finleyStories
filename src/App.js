@@ -35,11 +35,11 @@ function App() {
             <Route path="/nursery/twinkle">
               <TwinkleTwinkle />
             </Route>
-            <Route path="/nursery">
+            <Route exact path="/nursery">
               <Nursery />
             </Route>
 
-            <Route path="/" exact>
+            <Route exact path="/">
               <Home />
             </Route>
           </Switch>
