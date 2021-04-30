@@ -32,7 +32,7 @@ function Nursery() {
           />
         </Link>
         &nbsp;
-        <Link to="nursery/rowyourboat">
+        <Link to="/nursery/rowyourboat">
           <img
             src="https://resources.tidal.com/images/c5d07ffe/daca/4bb7/85a1/54d90e60e8d9/640x640.jpg"
             width="40%"
@@ -41,7 +41,7 @@ function Nursery() {
           />
         </Link>
         &nbsp;
-        <Link to="nursery/wheelsonbus">
+        <Link to="/nursery/wheelsonbus">
           <img
             src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781789055405/the-wheels-on-the-bus-9781789055405_hr.jpg"
             width="40%"
@@ -50,7 +50,7 @@ function Nursery() {
           />
         </Link>
         &nbsp;
-        <Link to="nursery/happy">
+        <Link to="/nursery/happy">
           <img
             src="https://i.scdn.co/image/ab67616d0000b27348f98cb1e0e93226a15fb439"
             width="40%"
@@ -59,7 +59,7 @@ function Nursery() {
           />
         </Link>
         &nbsp;
-        <Link to="nursery/dressed">
+        <Link to="/nursery/dressed">
           <img
             src="https://lh3.googleusercontent.com/uOTXEU3CmOgw6jBxyShnIjCjw-DqCtgJ8xDaox_XdZNwCpTFyGf6AlJuyPexira2Lbo"
             width="40%"
