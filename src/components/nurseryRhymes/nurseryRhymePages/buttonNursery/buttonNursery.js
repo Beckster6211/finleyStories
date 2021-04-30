@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 function NurseryButton() {
   return (
     <div>
-      <a exact href="/nursery">
+      <Link to="/nursery">
         <button>🎵 Nursery Rhymes🎵</button>
-      </a>
+      </Link>
     </div>
   );
 }
