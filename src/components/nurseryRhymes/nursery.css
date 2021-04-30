@@ -1,0 +1,43 @@
+.nursery {
+  background-image: url("../../istockphoto-955916008-170667a.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  min-width: 80vw;
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; */
+  /* justify-content: space-around; */
+  padding: 1%;
+  margin: 1%;
+}
+
+.nurseryHeading {
+  font-size: 2rem;
+}
+
+.text {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* .nurseryVideos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+} */
+
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .nurseryHeading {
+    font-size: 1.5rem;
+  }
+  .text {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
