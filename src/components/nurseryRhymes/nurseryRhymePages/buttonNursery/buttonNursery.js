@@ -1,7 +1,7 @@
 function NurseryButton() {
   return (
     <div>
-      <a href="/">
+      <a href="/nursery">
         <button>🎵 Nursery Rhymes🎵</button>
       </a>
     </div>
