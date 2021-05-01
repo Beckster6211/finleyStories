@@ -16,7 +16,7 @@ function Nursery() {
         <Link to="/nursery/twinkle">
           <img
             src="./twinkletwinkle.jpg"
-            width="40%"
+            width="35%"
             height="auto"
             alt="Twinkle twinkle little star"
           />
@@ -25,7 +25,7 @@ function Nursery() {
         <Link to="/nursery/macdonald">
           <img
             src="./macdonald.jpg"
-            width="40%"
+            width="35%"
             height="auto"
             alt="Old macdonald had a farm"
           />
@@ -34,7 +34,7 @@ function Nursery() {
         <Link to="/nursery/rowyourboat">
           <img
             src="./rowboat.jpg"
-            width="40%"
+            width="35%"
             height="auto"
             alt="Row your boat"
           />
@@ -43,7 +43,7 @@ function Nursery() {
         <Link to="/nursery/wheelsonbus">
           <img
             src="./wheelsonbus.jpg"
-            width="40%"
+            width="35%"
             height="auto"
             alt="Wheels on the bus"
           />
@@ -52,7 +52,7 @@ function Nursery() {
         <Link to="/nursery/happy">
           <img
             src="./happyandknowit.jfif"
-            width="40%"
+            width="35%"
             height="auto"
             alt="Happy and know it"
           />
@@ -61,7 +61,7 @@ function Nursery() {
         <Link to="/nursery/dressed">
           <img
             src="./getdressed.png"
-            width="40%"
+            width="35%"
             height="auto"
             alt="Get dressed"
           />
