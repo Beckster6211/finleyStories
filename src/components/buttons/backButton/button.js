@@ -2,7 +2,7 @@ function Button() {
   return (
     <div>
       <a href="/">
-        <button>🏠Back🏠</button>
+        <button>📕 Stories 📚</button>
       </a>
     </div>
   );

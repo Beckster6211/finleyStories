@@ -1,24 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./nursery.css";
+// import { Link } from "react-router-dom";
+import "./music.css";
 
 import Button from "../buttons/backButton/button";
-import Music from "../buttons/musicButton/musicButton";
+import NurseryButton from "../buttons/buttonNursery/buttonNursery";
 
-function Nursery() {
+function Music() {
   return (
-    <div className="nursery">
-      <h1 className="nurseryHeading">🎵 Nursery Rhymes 🎵</h1>
-      {/* <div className="buttons"> */}
-      <div className="insideButtons">
+    <div className="music">
+      <h1 className="musicHeading">📻 Music 🧑‍🎤</h1>
+      <div className="buttons">
         <Button />
-        <Music />
+        <NurseryButton />
       </div>
-      {/* </div> */}
-      <p className="text">
+      {/* <p className="text">
         Courtesy of youtube <br></br>Sorry if they drive you nuts 😊
-      </p>
-      <div className="videos">
+      </p> */}
+      {/* <div className="videos">
         <Link to="/nursery/twinkle">
           <img
             src="./images/twinkletwinkle.jpg"
@@ -72,9 +70,9 @@ function Nursery() {
             alt="Get dressed"
           />
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
 
-export default Nursery;
+export default Music;

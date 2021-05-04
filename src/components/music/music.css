@@ -1,0 +1,13 @@
+.music {
+  min-width: 95%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.musicHeading {
+  font-size: 2rem;
+}

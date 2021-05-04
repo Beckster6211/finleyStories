@@ -2,6 +2,7 @@
   text-align: center;
 }
 
-.nurseryButton {
-  align-content: center;
+.buttons {
+  display: flex;
+  justify-content: space-between;
 }
