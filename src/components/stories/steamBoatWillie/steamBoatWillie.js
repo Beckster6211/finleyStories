@@ -8,7 +8,7 @@ function SteamBoatWillie() {
       <h1 className="title">SteamBoat Willie</h1>
       <h1 className="icons">🐀⛵💨</h1>
       <Button />
-      <br />
+      <p className="text">❗❗ EVERYONE SHOULD WATCH ❗❗</p>
       <div className="video">
         <ReactPlayer
           controls

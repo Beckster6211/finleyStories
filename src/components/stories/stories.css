@@ -24,11 +24,21 @@
   margin: 1%;
 }
 
+.text {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
 @media only screen and (max-width: 550px) and (orientation: portrait) {
   .facts {
     color: black;
     font-size: 0.8rem;
     font-weight: 600;
+  }
+
+  .text {
+    font-size: 1rem;
+    font-weight: 900;
   }
 
   .title {
