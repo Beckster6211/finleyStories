@@ -35,19 +35,3 @@ function SteamBoatWillie() {
 }
 
 export default SteamBoatWillie;
-
-{
-  /* <div>
-        <NurseryButton />
-      </div>
-      <br />
-      <div className="video">
-        <ReactPlayer
-          controls
-          url="https://www.youtube.com/watch?v=1GDFa-nEzlg"
-          width="99%"
-          height="450px"
-          loop
-        />
-      </div> */
-}
