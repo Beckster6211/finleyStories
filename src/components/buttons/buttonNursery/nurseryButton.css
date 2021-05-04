@@ -1,0 +1,23 @@
+.nurseryButton {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-style: groove;
+  border-width: thick;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .nurseryButton {
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-style: groove;
+    border-width: medium;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+}

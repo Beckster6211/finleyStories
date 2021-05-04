@@ -1,10 +1,12 @@
+import "./musicButton.css";
+
 import { Link } from "react-router-dom";
 
 function MusicButton() {
   return (
     <div>
       <Link to="/music">
-        <button>🎤 Music 🎧</button>
+        <button className="musicButton">🎤 Music 🎧</button>
       </Link>
     </div>
   );

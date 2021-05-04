@@ -1,9 +1,13 @@
+import "./storiesButton.css";
+
+import { Link } from "react-router-dom";
+
 function Button() {
   return (
     <div>
-      <a href="/">
-        <button>📕 Stories 📚</button>
-      </a>
+      <Link to="/">
+        <button className="storiesButton">📕 Stories 📚</button>
+      </Link>
     </div>
   );
 }

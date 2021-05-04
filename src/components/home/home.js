@@ -13,6 +13,7 @@ function Home() {
       <Header />
       <div className="buttons">
         <NurseryButton />
+        &nbsp;
         <Music />
       </div>
       <br />
