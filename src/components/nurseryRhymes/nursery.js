@@ -2,13 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./nursery.css";
 
-import Button from "../backButton/button";
+import Button from "../buttons/backButton/button";
+import Music from "../buttons/musicButton/musicButton";
 
 function Nursery() {
   return (
     <div className="nursery">
       <h1 className="nurseryHeading">🎵 Nursery Rhymes 🎵</h1>
-      <Button />
+      {/* <div className="buttons"> */}
+      <div className="insideButtons">
+        <Button />
+        <Music />
+      </div>
+      {/* </div> */}
       <p className="text">
         Courtesy of youtube <br></br>Sorry if they drive you nuts 😊
       </p>

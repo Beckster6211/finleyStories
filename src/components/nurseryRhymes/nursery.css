@@ -35,6 +35,12 @@
   font-weight: 500;
 }
 
+.insideButtons {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
 /* .nurseryVideos {
   display: flex;
   flex-direction: row;

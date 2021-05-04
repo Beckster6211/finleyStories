@@ -11,12 +11,17 @@ import WheelsOnBus from "./components/nurseryRhymes/nurseryRhymePages/wheelsOnBu
 import HappyAndKnowIt from "./components/nurseryRhymes/nurseryRhymePages/happyAndKnowIt/happy";
 import GetDressed from "./components/nurseryRhymes/nurseryRhymePages/getDressed/getDressed";
 
+import Music from "./components/music/music";
+
 function App() {
   return (
     <div className="App">
       <div className="App-inside">
         <Router>
           <Switch>
+            <Route exact path="/music">
+              <Music />
+            </Route>
             <Route path="/nursery/dressed">
               <GetDressed />
             </Route>

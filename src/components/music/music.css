@@ -1,0 +1,28 @@
+.music {
+  min-width: 95%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.musicHeading {
+  font-size: 2rem;
+}
+
+.songs {
+  min-width: 95%;
+}
+
+.tracks {
+  display: inline-block;
+  border-style: solid;
+  margin: 2%;
+}
+
+.trackHeading {
+  font-size: 1rem;
+  color: black;
+}
