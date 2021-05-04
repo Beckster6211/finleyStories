@@ -1,5 +1,8 @@
 .home {
   text-align: center;
+  display: inline-block;
+  padding: 2%;
+  margin: 1%;
 }
 
 .buttons {

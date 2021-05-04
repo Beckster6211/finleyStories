@@ -15,9 +15,7 @@ function Nursery() {
         <Music />
       </div>
       {/* </div> */}
-      <p className="text">
-        Courtesy of youtube <br></br>Sorry if they drive you nuts 😊
-      </p>
+      <br />
       <div className="videos">
         <Link to="/nursery/twinkle">
           <img
@@ -72,6 +70,9 @@ function Nursery() {
             alt="Get dressed"
           />
         </Link>
+        <p className="text">
+          Courtesy of youtube <br></br>Sorry if they drive you nuts 😊
+        </p>
       </div>
     </div>
   );

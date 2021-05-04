@@ -3,6 +3,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./components/home/home";
+
+////////
 import Nursery from "./components/nurseryRhymes/nursery";
 import TwinkleTwinkle from "./components/nurseryRhymes/nurseryRhymePages/twinkleTwinkle/twinkleTwinkle";
 import Macdonald from "./components/nurseryRhymes/nurseryRhymePages/oldMacdonald/macdonald";
@@ -11,7 +13,11 @@ import WheelsOnBus from "./components/nurseryRhymes/nurseryRhymePages/wheelsOnBu
 import HappyAndKnowIt from "./components/nurseryRhymes/nurseryRhymePages/happyAndKnowIt/happy";
 import GetDressed from "./components/nurseryRhymes/nurseryRhymePages/getDressed/getDressed";
 
+////////
 import Music from "./components/music/music";
+
+//////
+import SteamBoatWillie from "./components/stories/steamBoatWillie/steamBoatWillie";
 
 function App() {
   return (
@@ -44,6 +50,9 @@ function App() {
               <Nursery />
             </Route>
 
+            <Route path="/steamboatwillie">
+              <SteamBoatWillie />
+            </Route>
             <Route exact path="/">
               <Home />
             </Route>
