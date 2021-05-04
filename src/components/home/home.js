@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import Header from "../header/header";
 import NurseryButton from "../buttons/buttonNursery/buttonNursery";
@@ -12,9 +12,6 @@ function Home() {
     <div className="home">
       <Header />
       <div className="buttons">
-        {/* <Link to="/nursery">
-          <button>Nursery Rhymes</button>
-        </Link> */}
         <NurseryButton />
         <Music />
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import ReactAudioPlayer from "react-audio-player";
 // import { Link } from "react-router-dom";
 import "./music.css";
 
@@ -12,6 +13,45 @@ function Music() {
       <div className="buttons">
         <Button />
         <NurseryButton />
+      </div>
+      {/* <audio controls>
+        <source src="./music/BadRomance.mp3" type="audio/mpeg"></source>
+      </audio> */}
+      <br />
+      <div className="songs">
+        <div className="tracks">
+          <h5 className="trackHeading">Bad Romance - Lady Gaga</h5>
+          <ReactAudioPlayer
+            src="./music/BadRomance.mp3"
+            // autoPlay
+            controls
+            // width="600px"
+            // height="auto"
+          />
+        </div>
+        {/* &nbsp;
+        <div className="tracks">
+          <h5>Bad Romance - Lady Gaga</h5>
+          <ReactAudioPlayer
+            src="./music/BadRomance.mp3"
+            // autoPlay
+            controls
+            // width="600px"
+            // height="auto"
+          />
+        </div>
+        &nbsp;
+        <div className="tracks">
+          <h5>Bad Romance - Lady Gaga</h5>
+          <ReactAudioPlayer
+            src="./music/BadRomance.mp3"
+            // autoPlay
+            controls
+            // width="600px"
+            // height="auto"
+          />
+        </div>{" "}
+        &nbsp; */}
       </div>
       {/* <p className="text">
         Courtesy of youtube <br></br>Sorry if they drive you nuts 😊
