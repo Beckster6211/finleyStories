@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Header from "../header/header";
 import NurseryButton from "../buttons/buttonNursery/buttonNursery";
@@ -15,7 +15,44 @@ function Home() {
         <NurseryButton />
         <Music />
       </div>
-
+      <br />
+      <div className="stories">
+        <Link to="/steamboatwillie">
+          <img
+            src="../stories/images/Steamboat_Willie.jpg"
+            width="30%"
+            height="auto"
+            alt="SteamboatWillie"
+          />
+        </Link>
+        &nbsp;
+        {/* <Link to="/steamboatwillie">
+          <img
+            src="../stories/images/Steamboat_Willie.jpg"
+            width="30%"
+            height="auto"
+            alt="SteamboatWillie"
+          />
+        </Link>
+        &nbsp;
+        <Link to="/steamboatwillie">
+          <img
+            src="../stories/images/Steamboat_Willie.jpg"
+            width="30%"
+            height="auto"
+            alt="SteamboatWillie"
+          />
+        </Link>
+        &nbsp;
+        <Link to="/steamboatwillie">
+          <img
+            src="../stories/images/Steamboat_Willie.jpg"
+            width="30%"
+            height="auto"
+            alt="SteamboatWillie"
+          />
+        </Link> */}
+      </div>
       {/* <Link to={videos[0].href}>
           <img src={videos[0].poster} alt={videos[0].alt} />
         </Link> */}
