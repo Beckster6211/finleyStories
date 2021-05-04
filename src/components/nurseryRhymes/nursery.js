@@ -15,7 +15,7 @@ function Nursery() {
       <div className="videos">
         <Link to="/nursery/twinkle">
           <img
-            src="./twinkletwinkle.jpg"
+            src="./images/twinkletwinkle.jpg"
             width="35%"
             height="auto"
             alt="Twinkle twinkle little star"
@@ -24,7 +24,7 @@ function Nursery() {
         &nbsp;
         <Link to="/nursery/macdonald">
           <img
-            src="./macdonald.jpg"
+            src="./images/macdonald.jpg"
             width="35%"
             height="auto"
             alt="Old macdonald had a farm"
@@ -33,7 +33,7 @@ function Nursery() {
         &nbsp;
         <Link to="/nursery/rowyourboat">
           <img
-            src="./rowboat.jpg"
+            src="./images/rowboat.jpg"
             width="35%"
             height="auto"
             alt="Row your boat"
@@ -42,7 +42,7 @@ function Nursery() {
         &nbsp;
         <Link to="/nursery/wheelsonbus">
           <img
-            src="./wheelsonbus.jpg"
+            src="./images/wheelsonbus.jpg"
             width="35%"
             height="auto"
             alt="Wheels on the bus"
@@ -51,7 +51,7 @@ function Nursery() {
         &nbsp;
         <Link to="/nursery/happy">
           <img
-            src="./happyandknowit.jfif"
+            src="./images/happyandknowit.jfif"
             width="35%"
             height="auto"
             alt="Happy and know it"
@@ -60,7 +60,7 @@ function Nursery() {
         &nbsp;
         <Link to="/nursery/dressed">
           <img
-            src="./getdressed.png"
+            src="./images/getdressed.png"
             width="35%"
             height="auto"
             alt="Get dressed"
