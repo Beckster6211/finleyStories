@@ -1,5 +1,5 @@
 import ReactPlayer from "react-player";
-import NurseryButton from "../buttonNursery/buttonNursery";
+import NurseryButton from "../../../buttons/buttonNursery/buttonNursery";
 
 import "../pages.css";
 

@@ -4,15 +4,17 @@ import "./home.css";
 import { Link } from "react-router-dom";
 
 import Header from "../header/header";
+import NurseryButton from "../buttons/buttonNursery/buttonNursery";
 
 function Home() {
   return (
     <div className="home">
       <Header />
       <div className="nurseryButton">
-        <Link to="/nursery">
+        {/* <Link to="/nursery">
           <button>Nursery Rhymes</button>
-        </Link>
+        </Link> */}
+        <NurseryButton />
       </div>
       {/* <Link to={videos[0].href}>
           <img src={videos[0].poster} alt={videos[0].alt} />
