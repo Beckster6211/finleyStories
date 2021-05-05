@@ -27,6 +27,14 @@ function Home() {
           />
         </Link>
         &nbsp;
+        <Link to="/dalmatian">
+          <img
+            src="../stories/images/p_101dalmatians_481ccd9d.webp"
+            width="30%"
+            height="auto"
+            alt="101 Dalmatans"
+          />
+        </Link>
         {/* <Link to="/steamboatwillie">
           <img
             src="../stories/images/Steamboat_Willie.jpg"

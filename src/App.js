@@ -18,6 +18,7 @@ import Music from "./components/music/music";
 
 //////
 import SteamBoatWillie from "./components/stories/steamBoatWillie/steamBoatWillie";
+import Dalmatian from "./components/stories/101Dalmations/101Dalmations";
 
 function App() {
   return (
@@ -50,6 +51,9 @@ function App() {
               <Nursery />
             </Route>
 
+            <Route path="/dalmatian">
+              <Dalmatian />
+            </Route>
             <Route path="/steamboatwillie">
               <SteamBoatWillie />
             </Route>
