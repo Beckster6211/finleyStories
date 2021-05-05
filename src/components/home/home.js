@@ -18,6 +18,15 @@ function Home() {
       </div>
       <br />
       <div className="stories">
+        <Link to="/helper">
+          <img
+            src="https://inspiring-decisions.com/wp-content/uploads/2017/06/how.jpg"
+            width="30%"
+            height="auto"
+            alt="Helper"
+          />
+        </Link>
+        &nbsp;
         <Link to="/steamboatwillie">
           <img
             src="../stories/images/Steamboat_Willie.jpg"
