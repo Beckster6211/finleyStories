@@ -77,13 +77,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Why? :question:
 
-This project started as at the beginning of lockdown my brother purchased a Tonies box
+This project started as at the beginning of lockdown my brother purchased a Tonies box. (This is a device which allows sounds to be played through a small figure placed on top of it. These can come in characters from tv shows/books or can be custom "Tonies").
 <br/>
-(This is a device which allows sounds to be played through a small figure placed on top of it. These can come in characters from tv shows/books or can be custom "Tonies").
 <br/>
 https://tonies.com/en-gb/shop/?gclid=CjwKCAjwhMmEBhBwEiwAXwFoEUEr89CZtC4SMjx-zh9euUmX6iw5PDEEIoJdOCHtEXvlR_QdvqA21BoCdzAQAvD_BwE
 <br/>
+<br/>
 My brother brought this as a way for distant family to stay close to my nephew (at the time only a few months old) as stories can be recorded on phones/tablets/devices and played through "Tonies" so Finley can hear their voices.
+<br/>
 <br/>
 Recently my mom made a comment about wanting to record video stories so he can get to know her face as well as her voice.
 
@@ -91,7 +92,9 @@ Recently my mom made a comment about wanting to record video stories so he can g
 
 "If only there was somewhere to put them????" 🤔
 <br/>
+<br/>
 So I made one 😄
+<br/>
 <br/>
 The site has an area where stories can be added aswell as page that shows nursery rhymes. (Also added a music page after my brother showed a video of my nephew enjoying Alexa playing Lady Gaga - Bad Romance).
 
@@ -107,15 +110,16 @@ On the stories page thumbnail images are displayed with the cover of the stories
 
 On the nursery rhymes page thumbnail images are displayed with the cover of the stories (like a gallery). Clicking on an image takes you to a page where the video of the story is available also with the lyrics underneath as well.
 
-###### 😠 Although the get dressed song is wrong 🙅 he puts socks on last when they should be first 🧦 then 👖
+###### 😠 Although the get dressed song is wrong 🙅 he puts his socks on last when they should be first <br/>🧦 then 👖
 
 ### Music 🎶
 
-On the nusic page it shows shows which are available to play.
+On the music page it shows which tracks are available to play (at the moment as an mp3 file but looking into the idea of a playlist like spotify).
 
 ### Want to see :eyes:
 
 If you want to see the site you can look on the link at the hosted version...
+<br/>
 https://blj-finley-stories.netlify.app/
 
 Or
@@ -127,18 +131,22 @@ Alternatively you can do the command npm run start in the terminal and a localho
 For general app construction
 <br/>
 React
+<br/>
 <img src = "./public/1280px-React-icon.svg (1).png" width = "150px" height = "100px"/>
 <br/>
 For navigation through app
 React Router Dom
+<br/>
 <img src = "./public/1_uwSAzkmaJGFf_0GmvTTZRQ.png" width = "150px" height = "100px" />
 <br/>
 For playing the videos
 React Player
+<br/>
 <img src = "./public/download.png" width = "150px" height = "100px" />
 <br/>
 For playing music
 React Audio Player
+<br/>
 <img src = "./public/screenshot.png" width = "150px" height = "100px"/>
 
-# Treat yourself to a mursery rhyme (are you a re sock on first or trousers 🤔)
+# Treat yourself to a nursery rhyme (are you a socks on first or trousers 🤔)
