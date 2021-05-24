@@ -1,0 +1,45 @@
+.mickey {
+  min-width: 95%;
+}
+
+.title {
+  font-size: 2.1rem;
+  text-decoration: underline;
+}
+
+/* .icons {
+  font-size: 2rem;
+} */
+
+.video {
+  /* border-style: solid; */
+  padding: 1%;
+}
+
+.facts {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 1%;
+  margin: 1%;
+}
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .facts {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+
+  /* .text {
+    font-size: 1rem;
+    font-weight: 900;
+  } */
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  /* .icons {
+    font-size: 1.3rem;
+  } */
+}
