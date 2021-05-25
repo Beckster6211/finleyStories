@@ -26,14 +26,23 @@ function Home() {
             alt="Helper"
           />
         </Link>
-        &nbsp;
-        <Link to="/steamboatwillie">
+        &nbsp; &nbsp; &nbsp;
+        {/* <Link to="/steamboatwillie">
           <img
             src="../stories/images/Steamboat_Willie.jpg"
             width="30%"
             height="auto"
             alt="SteamboatWillie"
           />
+        </Link> */}
+        <Link to="/mickeymouse">
+          <img
+            src="./evoMickey.jpg"
+            width="30%"
+            height="auto"
+            alt="Evolution of Mickey"
+          />
+          {/* <h1>Mickey</h1> */}
         </Link>
         &nbsp;
         {/* <Link to="/steamboatwillie">

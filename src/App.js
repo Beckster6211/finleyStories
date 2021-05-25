@@ -17,8 +17,21 @@ import GetDressed from "./components/nurseryRhymes/nurseryRhymePages/getDressed/
 import Music from "./components/music/music";
 
 //////
-import SteamBoatWillie from "./components/stories/steamBoatWillie/steamBoatWillie";
+// import SteamBoatWillie from "./components/stories/steamBoatWillie/steamBoatWillie";
 import Helper from "./components/stories/helper/helper";
+
+///////
+import MickeyMouseTimeline from "./components/stories/mickeyMouseTimeline/mickeyMouseTimeline";
+import PlaneCrazy from "./components/stories/mickeyMouseTimeline/moments/planeCrazy";
+import GallopinGaucho from "./components/stories/mickeyMouseTimeline/moments/gallopinGaucho";
+import SteamBoatWillie from "./components/stories/mickeyMouseTimeline/moments/steamboatWillie";
+import WhenCatsAway from "./components/stories/mickeyMouseTimeline/moments/catsAway";
+import KarnivalKid from "./components/stories/mickeyMouseTimeline/moments/karnivalKid";
+import BandConcert from "./components/stories/mickeyMouseTimeline/moments/bandConcert";
+import SocietyDog from "./components/stories/mickeyMouseTimeline/moments/societyDogShow";
+import MickeySurprise from "./components/stories/mickeyMouseTimeline/moments/mickeySurprise";
+import SorcerersApprentice from "./components/stories/mickeyMouseTimeline/moments/sorcererApprentice";
+import Clubhouse from "./components/stories/mickeyMouseTimeline/moments/clubhouse";
 
 function App() {
   return (
@@ -26,9 +39,11 @@ function App() {
       <div className="App-inside">
         <Router>
           <Switch>
+            {/* music */}
             <Route exact path="/music">
               <Music />
             </Route>
+            {/* nursery */}
             <Route path="/nursery/dressed">
               <GetDressed />
             </Route>
@@ -51,12 +66,48 @@ function App() {
               <Nursery />
             </Route>
 
+            {/* mickey timeline */}
+            <Route path="/mickeymouse/clubhouse">
+              <Clubhouse />
+            </Route>
+            <Route path="/mickeymouse/sorcerer">
+              <SorcerersApprentice />
+            </Route>
+            <Route path="/mickeymouse/mickeysurprise">
+              <MickeySurprise />
+            </Route>
+            <Route path="/mickeymouse/societydog">
+              <SocietyDog />
+            </Route>
+            <Route path="/mickeymouse/bandconcert">
+              <BandConcert />
+            </Route>
+            <Route path="/mickeymouse/karnival">
+              <KarnivalKid />
+            </Route>
+            <Route path="/mickeymouse/catsaway">
+              <WhenCatsAway />
+            </Route>
+            <Route path="/mickeymouse/steamboat">
+              <SteamBoatWillie />
+            </Route>
+            <Route path="/mickeymouse/gaucho">
+              <GallopinGaucho />
+            </Route>
+            <Route path="/mickeymouse/planecrazy">
+              <PlaneCrazy />
+            </Route>
+            <Route path="/mickeymouse">
+              <MickeyMouseTimeline />
+            </Route>
+
+            {/* stories */}
             <Route path="/helper">
               <Helper />
             </Route>
-            <Route path="/steamboatwillie">
+            {/* <Route path="/steamboatwillie">
               <SteamBoatWillie />
-            </Route>
+            </Route> */}
             <Route exact path="/">
               <Home />
             </Route>
