@@ -8,11 +8,11 @@ import MickeyButton from "../../../buttons/mickeyButton/mickeyButton";
 function KarnivalKid() {
   return (
     <div className="mickey">
-      <h1 className="title">🎠 The Karnival Kid 🎡</h1>
+      <h1 className="mickeyTitle">🎠 The Karnival Kid 🎡</h1>
       {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
-      <div className="facts">
-        <p>Mickey speaks</p>
+      <div className="mickeyFacts">
+        <p>The Karnival Kid Mickey speaks</p>
         <p>Release date... May 23rd 1929</p>
         <p>
           This is the first cartoon to feature Mickey Mouse speaking before this
@@ -41,7 +41,7 @@ function KarnivalKid() {
           loop
         />
       </div>
-      <div className="facts">
+      <div className="mickeyFacts">
         <p>🌭 Hot Dogs are still close to Mickey Mouse to this day 🌭</p>
       </div>
     </div>

@@ -70,7 +70,7 @@ function Nursery() {
             alt="Get dressed"
           />
         </Link>
-        <p className="text">
+        <p className="nurseryText">
           Courtesy of youtube <br></br>Sorry if they drive you nuts 😊
         </p>
       </div>

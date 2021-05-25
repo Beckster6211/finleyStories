@@ -8,10 +8,9 @@ import MickeyButton from "../../../buttons/mickeyButton/mickeyButton";
 function GallopinGaucho() {
   return (
     <div className="mickey">
-      <h1 className="title">🤠 The Gallopin' Gaucho 🤠</h1>
-      {/* <h1 className="icons">🚗🛩️</h1> */}
+      <h1 className="mickeyTitle">🤠The Gallopin' Gaucho🤠</h1>
       <MickeyButton />
-      <div className="facts">
+      <div className="mickeyFacts">
         <p>
           The Gallopin' Gaucho is Mickey Mouse's second ever cartoon appearance
           <br />
@@ -29,7 +28,7 @@ function GallopinGaucho() {
           December 30th 1928 (with sound)
         </p>
         <p>
-          Mickey Mouse has been labeled as a bandit, another bandit Pete,
+          Mickey Mouse has been labeled as a bandit when another bandit Pete,
           kidnaps the barmaid who Mickey and Pete are competing with for her
           attention. Can Mickey save her and keep her attention...
         </p>
@@ -44,7 +43,7 @@ function GallopinGaucho() {
           loop
         />
       </div>
-      <div className="facts">
+      <div className="mickeyFacts">
         <p>😄 Mickey has shoes on 👞 </p>
       </div>
     </div>

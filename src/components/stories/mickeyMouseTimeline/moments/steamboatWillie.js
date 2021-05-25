@@ -8,15 +8,15 @@ import MickeyButton from "../../../buttons/mickeyButton/mickeyButton";
 function SteamBoatWillie() {
   return (
     <div className="mickey">
-      <h1 className="title">⛵ Steamboat Willie ⛵</h1>
+      <h1 className="mickeyTitle">⛵ Steamboat Willie ⛵</h1>
       {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
-      <div className="facts">
+      <div className="mickeyFacts">
         <p>
           Mickey Mouse's debut to the public
           <br />
           This cartoon followed a whole new sound and picture format of 24
-          frames a seccond with synchronized sound (radical for its time).
+          frames per seccond with synchronized sound (radical for its time).
         </p>
         <p>Some parts of it are a bit... 😬 (remember it was the 1920s)</p>
         <p>Release date... November 18th 1928</p>
@@ -37,7 +37,7 @@ function SteamBoatWillie() {
           loop
         />
       </div>
-      <div className="facts">
+      <div className="mickeyFacts">
         <p>❗ 👀 EVERYBODY SHOULD WATCH 👀 ❗</p>
       </div>
     </div>

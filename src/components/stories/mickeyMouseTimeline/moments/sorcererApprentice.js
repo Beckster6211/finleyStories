@@ -8,10 +8,10 @@ import MickeyButton from "../../../buttons/mickeyButton/mickeyButton";
 function SorcerersApprentice() {
   return (
     <div className="mickey">
-      <h1 className="title">🧙‍♂️ Sorcerers Apprentice/Fantasia 🧙‍♂️</h1>
+      <h1 className="mickeyTitle">🧙‍♂️ Sorcerers Apprentice/Fantasia 🧙‍♂️</h1>
       {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
-      <div className="facts">
+      <div className="mickeyFacts">
         <p>Mickey Mouse first film role 📽️</p>
         <p>Release date... November 13th 1940</p>
         <p>
@@ -43,8 +43,8 @@ function SorcerersApprentice() {
           loop
         />
       </div>
-      <div className="facts">
-        <p>Please ignore the foreign language at the start 🙏</p>
+      <div className="mickeyFacts">
+        <p>Please ignore the foreign language at the start of the clip 🙏</p>
       </div>
     </div>
   );

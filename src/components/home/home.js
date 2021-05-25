@@ -11,6 +11,7 @@ function Home() {
   return (
     <div className="home">
       <Header />
+      &nbsp;
       <div className="buttons">
         <NurseryButton />
         &nbsp;
@@ -26,7 +27,7 @@ function Home() {
             alt="Helper"
           />
         </Link>
-        &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp;
         {/* <Link to="/steamboatwillie">
           <img
             src="../stories/images/Steamboat_Willie.jpg"

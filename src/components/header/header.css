@@ -1,11 +1,23 @@
 .header {
   text-align: center;
   font-size: 1.5rem;
+  border: black;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: aquamarine;
+  /* text-decoration: underline; */
 }
 
 @media only screen and (max-width: 550px) and (orientation: portrait) {
   .header {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    border: black;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: aquamarine;
+    /* text-decoration: underline; */
   }
 }

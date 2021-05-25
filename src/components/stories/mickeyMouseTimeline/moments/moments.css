@@ -2,9 +2,15 @@
   min-width: 95%;
 }
 
-.title {
+.mickeyTitle {
   font-size: 2.1rem;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  border: black;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: tomato;
+  padding: 0.5%;
 }
 
 /* .icons {
@@ -16,18 +22,30 @@
   padding: 1%;
 }
 
-.facts {
+.mickeyFacts {
   color: black;
   font-size: 1.3rem;
   font-weight: 600;
-  padding: 1%;
+  /* padding: 1%; */
   margin: 1%;
+  border: black;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: lavender;
 }
 @media only screen and (max-width: 550px) and (orientation: portrait) {
-  .facts {
+  .mickeyFacts {
     color: black;
     font-size: 0.8rem;
-    font-weight: 800;
+    font-weight: 500;
+    border: black;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: lavender;
+    /* padding: 1%; */
+    /* margin: 1%; */
   }
 
   /* .text {
@@ -35,8 +53,14 @@
     font-weight: 900;
   } */
 
-  .title {
-    font-size: 1.3rem;
+  .mickeyTitle {
+    font-size: 1.1rem;
+    border: black;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: tomato;
+    padding: 0.5%;
   }
 
   /* .icons {
