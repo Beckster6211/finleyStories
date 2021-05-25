@@ -106,6 +106,7 @@ The site has 3 main areas that you can navigate to using the buttons.
 
 On the stories page thumbnail images are displayed with the cover of the stories (like a library). Clicking on an image takes you to a page where the video of the story is available, sometimes with some facts and details as well.
 <br/>
+<br/>
 I've also added an evolution of Mickey Mouse (I'm a Disney fan) show videos of iconic Mickey Mouse moments.
 
 ### Nursery Rhymes 👶
