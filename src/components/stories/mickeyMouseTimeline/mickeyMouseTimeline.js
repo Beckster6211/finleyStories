@@ -8,12 +8,14 @@ function MickeyMouseTimeline() {
   return (
     <div className="mickey">
       <h1 className="mickeyHeading">Evolution of Mickey Mouse</h1>
+      <br />
+      <Button />
+      <br />
       <img
         className="mickeyEvo"
         src="./evolution.jpg"
         alt="Evolution of Mickey Mouse"
       />
-      <Button />
       &nbsp;
       <p className="mickeyText">
         Iconic Mickey Mouse moments - each link takes you to a page with video,
