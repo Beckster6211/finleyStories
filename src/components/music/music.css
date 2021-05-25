@@ -24,6 +24,7 @@
 .tracks {
   display: inline-block;
   border-style: solid;
+  background-color: pink;
   margin: 2%;
 }
 
