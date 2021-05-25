@@ -8,7 +8,7 @@ function Helper() {
       <h1 className="title">Helper</h1>
       <h1 className="icons">👷🔨🧰🔧👷</h1>
       <Button />
-      <p className="text">This video isn't staying</p>
+      <p className="text">This video isn't staying (for family)</p>
       <div className="video">
         <ReactPlayer
           controls
