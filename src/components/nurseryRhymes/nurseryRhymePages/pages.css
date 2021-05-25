@@ -13,11 +13,21 @@
   font-weight: 600;
   padding: 1%;
   margin: 1%;
+  border: black;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: slateblue;
 }
 
 .title {
   font-size: 2.1rem;
   text-decoration: underline;
+  border: black;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: crimson;
 }
 
 .icons {
@@ -29,10 +39,21 @@
     color: black;
     font-size: 0.8rem;
     font-weight: 600;
+    border: black;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: slateblue;
   }
 
   .title {
     font-size: 1.3rem;
+    border: black;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 8px;
+    text-decoration: underline;
+    background-color: crimson;
   }
 
   .icons {

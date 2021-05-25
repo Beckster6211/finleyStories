@@ -34,10 +34,15 @@
   background-color: aquamarine;
 }
 
-.text {
+.nurseryText {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 500;
+  border: black;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: sienna;
 }
 
 .insideButtons {
@@ -64,9 +69,14 @@
     background-color: aquamarine;
     padding: 2%;
   }
-  .text {
+  .nurseryText {
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
+    border: black;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: sienna;
   }
 }
