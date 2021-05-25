@@ -9,7 +9,6 @@ function Clubhouse() {
   return (
     <div className="mickey">
       <h1 className="mickeyTitle">🏠Mickey Mouse Clubhouse🏠</h1>
-      {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
       <div className="mickeyFacts">
         <p>Mickey Mouse Clubhouse</p>

@@ -32,7 +32,6 @@ function GallopinGaucho() {
           kidnaps the barmaid who Mickey and Pete are competing with for her
           attention. Can Mickey save her and keep her attention...
         </p>
-        {/* <p>I wonder if you notice Mickey's only item of clothing</p> */}
       </div>
       <div className="video">
         <ReactPlayer

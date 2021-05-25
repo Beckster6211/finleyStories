@@ -9,7 +9,6 @@ function BandConcert() {
   return (
     <div className="mickey">
       <h1 className="mickeyTitle">🎺 The Band Concert 🥁</h1>
-      {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
       <div className="mickeyFacts">
         <p>The Band Concert Mickey Mouse in colour 🎨</p>
@@ -25,7 +24,6 @@ function BandConcert() {
           <br />
           Will the band be able to play on?
         </p>
-        {/* <p>I wonder if you notice Mickey's only item of clothing</p> */}
       </div>
       <div className="video">
         <ReactPlayer

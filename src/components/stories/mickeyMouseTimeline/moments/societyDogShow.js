@@ -9,7 +9,6 @@ function SocietyDog() {
   return (
     <div className="mickey">
       <h1 className="mickeyTitle">🐕 Society Dog Show 🐶</h1>
-      {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
       <div className="mickeyFacts">
         <p>
@@ -26,7 +25,6 @@ function SocietyDog() {
           But then disaster strikes Pluto has the chance to shine and show maybe
           looks aren't everything.
         </p>
-        {/* <p>I wonder if you notice Mickey's only item of clothing</p> */}
       </div>
       <div className="video">
         <ReactPlayer

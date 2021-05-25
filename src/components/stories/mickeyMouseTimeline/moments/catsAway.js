@@ -9,7 +9,6 @@ function WhenCatsAway() {
   return (
     <div className="mickey">
       <h1 className="mickeyTitle">🎵 When the Cat's Away 🎹</h1>
-      {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
       <div className="mickeyFacts">
         <p>In When the Cat's Away Mickey four fingers get toasty warm</p>
@@ -21,7 +20,6 @@ function WhenCatsAway() {
           <br />
           (Well when the cats away...)
         </p>
-        {/* <p>I wonder if you notice Mickey's only item of clothing</p> */}
       </div>
       <div className="video">
         <ReactPlayer

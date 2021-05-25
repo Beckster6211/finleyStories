@@ -43,7 +43,6 @@ function Home() {
             height="auto"
             alt="Evolution of Mickey"
           />
-          {/* <h1>Mickey</h1> */}
         </Link>
         &nbsp;
         {/* <Link to="/steamboatwillie">

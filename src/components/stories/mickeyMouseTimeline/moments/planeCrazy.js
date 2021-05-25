@@ -9,7 +9,6 @@ function PlaneCrazy() {
   return (
     <div className="mickey">
       <h1 className="mickeyTitle">🚗 Plane Crazy 🛩️</h1>
-      {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
       <div className="mickeyFacts">
         <p>
@@ -34,7 +33,6 @@ function PlaneCrazy() {
           Lindbergh. His first attempt doesn't go well which causes him to
           improvise his vehicle and calamity unfolds.
         </p>
-        {/* <p>I wonder if you notice Mickey's only item of clothing</p> */}
       </div>
       <div className="video">
         <ReactPlayer

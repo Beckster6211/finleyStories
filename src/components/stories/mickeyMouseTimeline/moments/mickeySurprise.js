@@ -9,7 +9,6 @@ function MickeySuprise() {
   return (
     <div className="mickey">
       <h1 className="mickeyTitle">🥳 Mickey Suprise Party 🍪</h1>
-      {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
       <div className="mickeyFacts">
         <p>
@@ -29,7 +28,6 @@ function MickeySuprise() {
           <br />
           Maybe Mickey can show her its the thought that really counts
         </p>
-        {/* <p>I wonder if you notice Mickey's only item of clothing</p> */}
       </div>
       <div className="video">
         <ReactPlayer

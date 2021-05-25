@@ -9,7 +9,6 @@ function SorcerersApprentice() {
   return (
     <div className="mickey">
       <h1 className="mickeyTitle">🧙‍♂️ Sorcerers Apprentice/Fantasia 🧙‍♂️</h1>
-      {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
       <div className="mickeyFacts">
         <p>Mickey Mouse first film role 📽️</p>
@@ -32,7 +31,6 @@ function SorcerersApprentice() {
           sorcerers hat to speed things up, but soon finds out sometimes there
           is nothing wrong with the traditional way.
         </p>
-        {/* <p>I wonder if you notice Mickey's only item of clothing</p> */}
       </div>
       <div className="video">
         <ReactPlayer

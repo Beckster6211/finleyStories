@@ -9,7 +9,6 @@ function SteamBoatWillie() {
   return (
     <div className="mickey">
       <h1 className="mickeyTitle">⛵ Steamboat Willie ⛵</h1>
-      {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
       <div className="mickeyFacts">
         <p>
@@ -26,7 +25,6 @@ function SteamBoatWillie() {
           her sheet music gets lose who knew a goats appetite could lead to an
           unusual symphony.
         </p>
-        {/* <p>I wonder if you notice Mickey's only item of clothing</p> */}
       </div>
       <div className="video">
         <ReactPlayer

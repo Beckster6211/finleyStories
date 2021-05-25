@@ -9,7 +9,6 @@ function KarnivalKid() {
   return (
     <div className="mickey">
       <h1 className="mickeyTitle">🎠 The Karnival Kid 🎡</h1>
-      {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
       <div className="mickeyFacts">
         <p>The Karnival Kid Mickey speaks</p>
@@ -30,7 +29,6 @@ function KarnivalKid() {
           affection of certain dancer mouse. Maybe senerading her will do the
           trick lets hope no one gets in the way 🤞
         </p>
-        {/* <p>I wonder if you notice Mickey's only item of clothing</p> */}
       </div>
       <div className="video">
         <ReactPlayer
