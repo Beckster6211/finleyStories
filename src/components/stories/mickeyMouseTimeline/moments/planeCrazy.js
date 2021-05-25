@@ -26,8 +26,8 @@ function PlaneCrazy() {
           used with the other cartoon.
           <br />
           <br />
-          Thats why this has two release dates... May 15th 1928 (silent) March
-          17th 1929 (with sound)
+          Thats why this has two release dates... May 15th 1928 (near silent)
+          March 17th 1929 (with sound)
         </p>
         <p>
           Mickey Mouse is trying to fly a plane inspired by US aviator Charles
@@ -46,7 +46,7 @@ function PlaneCrazy() {
         />
       </div>
       <div className="facts">
-        <p>Notice that Mickey is only wearing one item of clothing</p>
+        <p>Notice that Mickey is only wearing one item of clothing 🩳</p>
       </div>
     </div>
   );

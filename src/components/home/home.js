@@ -26,7 +26,7 @@ function Home() {
             alt="Helper"
           />
         </Link>
-        &nbsp;
+        &nbsp; &nbsp; &nbsp;
         {/* <Link to="/steamboatwillie">
           <img
             src="../stories/images/Steamboat_Willie.jpg"
