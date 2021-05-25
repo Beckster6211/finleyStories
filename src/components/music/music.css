@@ -10,6 +10,11 @@
 
 .musicHeading {
   font-size: 2rem;
+  border: black;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: aquamarine;
 }
 
 .songs {

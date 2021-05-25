@@ -8,11 +8,14 @@ import MickeyButton from "../../../buttons/mickeyButton/mickeyButton";
 function MickeySuprise() {
   return (
     <div className="mickey">
-      <h1 className="title">🥳 Mickey Suprise Party 🍪</h1>
+      <h1 className="mickeyTitle">🥳 Mickey Suprise Party 🍪</h1>
       {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
-      <div className="facts">
-        <p>Mickey Mouse first appearance with eyes that contain pupils</p>
+      <div className="mickeyFacts">
+        <p>
+          Mickey Surprise Party Mickey Mouse first appearance with eyes that
+          contain pupils
+        </p>
         <p>Release date... February 18th 1939</p>
         <p>
           This is actually the template for the classic Mickey Mouse look - eyes
@@ -37,7 +40,7 @@ function MickeySuprise() {
           loop
         />
       </div>
-      <div className="facts">
+      <div className="mickeyFacts">
         <p>
           This was the first Disney to be sponsored by a company, something Walt
           Disney actually hated.

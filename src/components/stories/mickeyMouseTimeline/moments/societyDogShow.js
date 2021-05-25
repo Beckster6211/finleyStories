@@ -8,11 +8,14 @@ import MickeyButton from "../../../buttons/mickeyButton/mickeyButton";
 function SocietyDog() {
   return (
     <div className="mickey">
-      <h1 className="title">🐕 Society Dog Show 🐶</h1>
+      <h1 className="mickeyTitle">🐕 Society Dog Show 🐶</h1>
       {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
-      <div className="facts">
-        <p>Mickey Mouse last appearance with trademark button eyes 😧</p>
+      <div className="mickeyFacts">
+        <p>
+          Society Dog Show Mickey Mouse last appearance with trademark button
+          eyes 😧
+        </p>
         <p>Release date... February 3rd 1939</p>
         <p>But don't worry it's just a little laser eye surgery 😊</p>
         <p>
@@ -34,7 +37,7 @@ function SocietyDog() {
           loop
         />
       </div>
-      <div className="facts">
+      <div className="mickeyFacts">
         <p>Mickey's buttoned eyes still appear in comic strips</p>
       </div>
     </div>

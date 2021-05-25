@@ -8,10 +8,10 @@ import MickeyButton from "../../../buttons/mickeyButton/mickeyButton";
 function PlaneCrazy() {
   return (
     <div className="mickey">
-      <h1 className="title">🚗 Plane Crazy 🛩️</h1>
+      <h1 className="mickeyTitle">🚗 Plane Crazy 🛩️</h1>
       {/* <h1 className="icons">🚗🛩️</h1> */}
       <MickeyButton />
-      <div className="facts">
+      <div className="mickeyFacts">
         <p>
           Plane Crazy is technically Mickey Mouse's first ever cartoon
           appearance
@@ -19,7 +19,7 @@ function PlaneCrazy() {
           It was used as part of a test screening for audiences and was
           originally silent
         </p>
-        <p>🙂 👍 Reviews were mixed 👎 ☹️</p>
+        <p>🙂👍 Reviews mixed 👎☹️</p>
         <p>
           After the introduction of sound on another famous Mickey cartoon, Walt
           Disney re-released this following the same sound and picture format
@@ -45,7 +45,7 @@ function PlaneCrazy() {
           loop
         />
       </div>
-      <div className="facts">
+      <div className="mickeyFacts">
         <p>Notice that Mickey is only wearing one item of clothing 🩳</p>
       </div>
     </div>

@@ -27,6 +27,11 @@
 }
 .nurseryHeading {
   font-size: 2rem;
+  border: black;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: aquamarine;
 }
 
 .text {
@@ -52,6 +57,12 @@
 @media only screen and (max-width: 550px) and (orientation: portrait) {
   .nurseryHeading {
     font-size: 1.5rem;
+    border: black;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: aquamarine;
+    padding: 2%;
   }
   .text {
     text-align: center;

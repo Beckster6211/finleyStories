@@ -11,6 +11,7 @@ function Home() {
   return (
     <div className="home">
       <Header />
+      &nbsp;
       <div className="buttons">
         <NurseryButton />
         &nbsp;
