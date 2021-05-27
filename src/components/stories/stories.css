@@ -2,12 +2,17 @@
   min-width: 95%;
 }
 
-.title {
+.storiesTitle {
   font-size: 2.1rem;
   text-decoration: underline;
+  border: black;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: yellow;
 }
 
-.icons {
+.storiesIcons {
   font-size: 2rem;
 }
 
@@ -16,36 +21,57 @@
   padding: 1%;
 }
 
-.facts {
+.storiesFacts {
   color: black;
   font-size: 1.3rem;
   font-weight: 600;
   padding: 1%;
   margin: 1%;
+  border: black;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: cornflowerblue;
 }
 
-.text {
+.storiesText {
   font-size: 1.5rem;
   font-weight: 900;
 }
 
+.helperImages {
+  width: 40%;
+  height: auto;
+}
+
 @media only screen and (max-width: 550px) and (orientation: portrait) {
-  .facts {
+  .storiesFacts {
     color: black;
     font-size: 0.8rem;
     font-weight: 600;
+    border: black;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: cornflowerblue;
   }
 
-  .text {
+  .storiesText {
     font-size: 1rem;
     font-weight: 900;
   }
 
-  .title {
+  .storiesTitle {
+    font-size: 1.3rem;
+    background-color: yellow;
+  }
+
+  .storiesIcons {
     font-size: 1.3rem;
   }
 
-  .icons {
-    font-size: 1.3rem;
+  .helperImages {
+    width: 40%;
+    height: auto;
   }
 }
