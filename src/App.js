@@ -17,7 +17,7 @@ import GetDressed from "./components/nurseryRhymes/nurseryRhymePages/getDressed/
 import Music from "./components/music/music";
 
 //////
-// import SteamBoatWillie from "./components/stories/steamBoatWillie/steamBoatWillie";
+// import Dalmatians from "./components/stories/101Dalmatians/101Dalmatians";
 import Helper from "./components/stories/helper/helper";
 
 ///////
@@ -105,8 +105,8 @@ function App() {
             <Route path="/helper">
               <Helper />
             </Route>
-            {/* <Route path="/steamboatwillie">
-              <SteamBoatWillie />
+            {/* <Route path="/dalmatians">
+              <Dalmatians />
             </Route> */}
             <Route exact path="/">
               <Home />

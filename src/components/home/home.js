@@ -21,8 +21,8 @@ function Home() {
       <div className="stories">
         <Link to="/helper">
           <img
-            src="https://inspiring-decisions.com/wp-content/uploads/2017/06/how.jpg"
-            width="30%"
+            src="./3dded-user-manual-243164411-1577749290911.jpg"
+            width="45%"
             height="auto"
             alt="Helper"
           />
@@ -45,6 +45,14 @@ function Home() {
           />
         </Link>
         &nbsp;
+        {/* <Link to="/dalmatians">
+          <img
+            src="../stories/images/p_101dalmatians_481ccd9d.webp"
+            width="30%"
+            height="auto"
+            alt="101 Dalmatians"
+          />
+        </Link> */}
         {/* <Link to="/steamboatwillie">
           <img
             src="../stories/images/Steamboat_Willie.jpg"
